@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="font-sans flex flex-col justify-center items-center">
+    <div className="font-sans flex flex-col justify-center items-center m-6">
       <h1 className="font-bold text-7xl m-6">Zachary Youngdale</h1>
       <h2 className="font-semibold text-3xl">Software Engineer and Musician</h2>
       <p className="font-medium text-2xl p-6 w-2/4 text-center">
