@@ -2,7 +2,7 @@ export default [
   {
     id: 1,
     title: "Filter.",
-    imageUrl: "../images/Filter-screenshot.png",
+    imageUrl: "/images/Filter-screenshot.png",
     stack: [
       "React",
       "Ruby on Rails",
@@ -16,7 +16,7 @@ export default [
   {
     id: 2,
     title: "Bands.where",
-    imageUrl: "../images/Bands.where.png",
+    imageUrl: "/images/Bands.where.png",
     stack: [
       "React",
       "Ruby on Rails",
@@ -31,7 +31,7 @@ export default [
   {
     id: 3,
     title: "Grow Therapy",
-    imageUrl: "../images/Grow-Therapy.png",
+    imageUrl: "/images/Grow-Therapy.png",
     stack: ["React", "Ruby", "Sinatra", "TailwindCSS", "SQLite"],
     link: "https://youtu.be/NibEWLj0oJ0",
     gitHub: "https://github.com/zachyoungdale/Grow-Therapy-Frontend",
