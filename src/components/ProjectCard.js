@@ -25,7 +25,7 @@ function ProjectCard({ title, imageUrl, stack, link, gitHub }) {
           {stackList}
         </p>
         <a href={gitHub}>
-          <button className="text-white bg-stone-900 mt-6 font-semibold rounded-md p-1 w-1/4 hover:w-2/4 transition ease-in-out">
+          <button className="text-white bg-stone-900 mt-6 font-semibold rounded-md p-1 w-1/4 hover:scale-105 transition ease-in-out focus:bg-stone-700">
             GitHub
           </button>
         </a>
