@@ -8,6 +8,7 @@ function Projects() {
         key={project.id}
         title={project.title}
         imageUrl={project.imageUrl}
+        description={project.description}
         stack={project.stack}
         link={project.link}
         gitHub={project.gitHub}

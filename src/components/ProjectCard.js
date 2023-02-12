@@ -1,4 +1,4 @@
-function ProjectCard({ title, imageUrl, stack, link, gitHub }) {
+function ProjectCard({ title, imageUrl, description, stack, link, gitHub }) {
   const stackList = stack.map((tech) => (
     <span
       key={tech}
@@ -20,7 +20,8 @@ function ProjectCard({ title, imageUrl, stack, link, gitHub }) {
         className="w-full h-36 md:h-48 object-cover cursor-pointer"
       />
       <div className="w-full p-4">
-        <h3 className="font-bold text-4xl mb-3">{title}</h3>
+        <h3 className="font-bold text-4xl mb-1">{title}</h3>
+        <p className="mb-2 font-light italic">{description}</p>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
           {stackList}
         </p>

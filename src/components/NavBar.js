@@ -9,7 +9,7 @@ function NavBar() {
         className="font-medium text-2xl italic underline mt-4"
         href={`mailto:${email}${params}`}
       >
-        <button className="font-medium text-xl bg-white text-stone-900 p-2 rounded-md mr-10 hover:border-2 hover:border-white hover:text-white hover:bg-stone-900">
+        <button className="font-light text-xl bg-stone-900 text-white p-2 rounded-md mr-10 border-2 border-white hover:text-stone-900 hover:bg-white">
           {children}
         </button>
       </a>

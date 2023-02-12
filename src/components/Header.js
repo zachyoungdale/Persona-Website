@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div className="font-sans flex flex-row justify-center items-center m-6 p-20">
-      <p className="font-medium text-2xl p-6 w-3/4 text-left">
+      <p className="font-light text-2xl p-6 w-3/4 text-left">
         Hi my name is Zach and I am a software engineer! As a former musician
         and psychology student, I bring a unique blend of creativity and
         analytical thinking to my work as a software engineer. With a strong
