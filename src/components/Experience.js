@@ -3,7 +3,7 @@ import experienceList from "../data/experienceList";
 function Experience() {
   const experience = experienceList.map((job) => {
     return (
-      <div className="flex flex-col justify-center p-10 gap-4">
+      <div className="flex flex-col justify-center p-10 gap-4  text-stone-900">
         <h4 className="font-bold text-3xl">{job.title}</h4>
         <h4 className="font-medium text-2xl">{job.duration}</h4>
         <p className="font-light text-2xl">{job.details}</p>
