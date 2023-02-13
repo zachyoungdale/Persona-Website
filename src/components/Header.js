@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <div className="font-sans flex flex-row justify-center items-center m-6 p-20">
-      <p className="font-light text-2xl p-6 w-3/4 text-left text-stone-900">
-        <span className="font-semibold text-4xl">
+    <div className="font-sans flex flex-row justify-center items-center m-3 p-3 sm:p-20 sm:m-6">
+      <p className="font-light text-lg p-6 w-full md:w-3/4 text-left text-stone-900 md:text-2xl">
+        <span className="font-semibold text-xl sm:text-3xl">
           Hi, my name is Zach and I am a software engineer
         </span>{" "}
         As a former musician and psychology student, I bring a unique blend of
