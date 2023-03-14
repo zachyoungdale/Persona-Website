@@ -7,6 +7,7 @@ import {
   SiCss3,
   SiTailwindcss,
   SiPostgresql,
+  SiMongodb,
 } from "react-icons/si";
 
 function TechnicalSkills() {
@@ -24,6 +25,7 @@ function TechnicalSkills() {
         <SiCss3 className="hover:-translate-y-1 hover:scale-125 transition ease-in-out" />
         <SiTailwindcss className="hover:-translate-y-1 hover:scale-125 transition ease-in-out" />
         <SiPostgresql className="hover:-translate-y-1 hover:scale-125 transition ease-in-out" />
+        <SiMongodb className="hover:-translate-y-1 hover:scale-125 transition ease-in-out" />
       </div>
     </div>
   );
