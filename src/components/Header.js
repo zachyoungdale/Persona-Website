@@ -7,7 +7,7 @@ function Header() {
         </span>{" "}
         As a former musician and psychology student, I bring a unique blend of
         creativity and analytical thinking to my work as a software engineer.
-        With a strong background in the arts and a deep understanding of human
+        With a strong background in the arts and an understanding of human
         behavior, I am able to approach problem-solving from multiple angles and
         create intuitive and user-friendly solutions. Whether I'm developing new
         applications or optimizing existing ones, I am driven by a passion for
